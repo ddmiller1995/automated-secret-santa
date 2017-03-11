@@ -1,0 +1,18 @@
+/*
+  Data format, can be changed but html and data keys will need to be adjusted
+  accordingly in SecretSanta.py.
+
+  JSON can be built up manually, but I would recommend using a simple script to convert
+  a spreadsheet csv to json.
+*/
+{
+  "email@gmail.com": {
+    "Timestamp": "datetime",
+    "Name": "John Smith",
+    "Favorite Food / Candy": "",
+    "Favorite Movie": "",
+    "Favorite Color": "",
+    "Favorite Hobbies": "",
+    "Other interests / Things you want": ""
+  },
+}
