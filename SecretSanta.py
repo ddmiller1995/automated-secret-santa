@@ -47,7 +47,7 @@ for email in matches:
     msg = MIMEMultipart('alternative')
     msg['Subject'] = "Secret Santa Assignment"
     msg['From'] = me
-    msg['To'] = you #email
+    msg['To'] = email
 
     # Create the body of the message (a plain-text and an HTML version).
     text = "Hi!\nYour Secret Santa Assignment is: " + rec_name + "\nTheir interests can be found in this spreadsheet: " \
